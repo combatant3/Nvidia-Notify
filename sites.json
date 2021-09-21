@@ -66,6 +66,22 @@
     "enabled": false
   },
   {
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=3006635/3005719",
+    "keyword": "cart.svg",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuy PS5 Digital Edition",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=3006634/3005718",
+    "keyword": "cart.svg",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuy PS5",
+    "enabled": true
+  },
+  {
     "url": "https://www.amazon.com/stores/page/6B204EA4-AAAC-4776-82B1-D7C3BD9DDC82?ingress=0",
     "keyword": ">Add to Cart<",
     "alert": true,
@@ -87,6 +103,22 @@
     "alert": true,
     "method": "GET_URLLIB",
     "name": "Amazon 3090",
+    "enabled": true
+  },
+  {
+    "url": "https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG",
+    "keyword": ">Add to Cart<",
+    "alert": true,
+    "method": "GET_URLLIB",
+    "name": "Amazon PS5",
+    "enabled": true
+  },
+  {
+    "url": "https://www.amazon.com/PlayStation-5-Digital/dp/B08FC6MR62",
+    "keyword": ">Add to Cart<",
+    "alert": true,
+    "method": "GET_URLLIB",
+    "name": "Amazon PS5 Digital Edition",
     "enabled": true
   },
   {

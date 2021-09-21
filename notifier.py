@@ -145,7 +145,7 @@ def urllib_get(url):
     # for regular sites
     # Fake a Firefox client
     request = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    page = urlopen(request, timeout=30)
+    page = urlopen(request, timeout=20)
     html_bytes = page.read()
     html = html_bytes.decode("utf-8")
     return html
